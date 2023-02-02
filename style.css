@@ -161,3 +161,10 @@ a{
 .attribution>a:hover::after{
   transform: scaleX(1.0);
 }
+
+
+@media screen and (max-width:320px){
+  .item_description{
+    font-size: 0.9rem;
+  }
+}
